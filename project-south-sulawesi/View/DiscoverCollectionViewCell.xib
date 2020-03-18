@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiscoverReuseableCell" id="gTV-IL-0wX" customClass="DiscoverCollectionViewCell" customModule="Project_South_Sulawesi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="425"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="425"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s0e-QW-21e">
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="425"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pawel-czerwinski-arwTpnIUHdM-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="MLg-lH-9V6" userLabel="Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="319" height="425"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECONDARY LABEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fv8-3u-hHI" userLabel="Secondary Label">
+                                <rect key="frame" x="16" y="16" width="170" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6G-1y-cHZ" userLabel="Detail Label">
+                                <rect key="frame" x="16" y="368" width="287" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primary Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2v-dl-KiP" userLabel="Primary Label">
+                                <rect key="frame" x="16" y="50" width="200" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="58v-fn-B0E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="z2v-dl-KiP" firstAttribute="leading" secondItem="s0e-QW-21e" secondAttribute="leading" constant="16" id="IyO-dd-GxV"/>
+                            <constraint firstAttribute="trailing" secondItem="Z6G-1y-cHZ" secondAttribute="trailing" constant="16" id="LVV-9N-vi7"/>
+                            <constraint firstItem="Fv8-3u-hHI" firstAttribute="top" secondItem="s0e-QW-21e" secondAttribute="top" constant="16" id="QcE-iI-Dhe"/>
+                            <constraint firstItem="MLg-lH-9V6" firstAttribute="leading" secondItem="s0e-QW-21e" secondAttribute="leading" id="Xrd-go-ccr"/>
+                            <constraint firstItem="Fv8-3u-hHI" firstAttribute="leading" secondItem="s0e-QW-21e" secondAttribute="leading" constant="16" id="YMe-Ia-4cX"/>
+                            <constraint firstAttribute="trailing" secondItem="MLg-lH-9V6" secondAttribute="trailing" id="ex4-Rm-IlK"/>
+                            <constraint firstItem="z2v-dl-KiP" firstAttribute="top" secondItem="Fv8-3u-hHI" secondAttribute="bottom" constant="12" id="kmK-ZF-pS9"/>
+                            <constraint firstAttribute="bottom" secondItem="Z6G-1y-cHZ" secondAttribute="bottom" constant="16" id="rEh-2Y-R4O"/>
+                            <constraint firstAttribute="bottom" secondItem="MLg-lH-9V6" secondAttribute="bottom" id="rHo-EU-pxH"/>
+                            <constraint firstItem="MLg-lH-9V6" firstAttribute="top" secondItem="s0e-QW-21e" secondAttribute="top" id="rUu-LJ-lzp"/>
+                            <constraint firstItem="Z6G-1y-cHZ" firstAttribute="leading" secondItem="s0e-QW-21e" secondAttribute="leading" constant="16" id="uc4-JL-faf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="s0e-QW-21e" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bnh-eA-zp2"/>
+                <constraint firstItem="s0e-QW-21e" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pIk-k6-CTK"/>
+                <constraint firstItem="s0e-QW-21e" firstAttribute="bottom" secondItem="gTV-IL-0wX" secondAttribute="bottom" id="tmv-Ch-Qir"/>
+                <constraint firstItem="s0e-QW-21e" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailing" id="wxt-qv-xhS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="319" height="425"/>
+            <connections>
+                <outlet property="cardContentView" destination="s0e-QW-21e" id="thz-nw-PM7"/>
+                <outlet property="detailLabel" destination="Z6G-1y-cHZ" id="v00-dH-pSm"/>
+                <outlet property="imageView" destination="MLg-lH-9V6" id="I3Y-ev-GwO"/>
+                <outlet property="primaryLabel" destination="z2v-dl-KiP" id="wxm-31-cjg"/>
+                <outlet property="secondaryLabel" destination="Fv8-3u-hHI" id="BEf-k0-iHO"/>
+            </connections>
+            <point key="canvasLocation" x="280.43478260869568" y="277.56696428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="pawel-czerwinski-arwTpnIUHdM-unsplash" width="4000" height="6000"/>
+    </resources>
+</document>

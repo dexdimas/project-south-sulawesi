@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8913EEC12421B77D00063E56 /* JournalDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EEBF2421B77D00063E56 /* JournalDetailCollectionViewCell.swift */; };
+		8913EEC22421B77D00063E56 /* JournalDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8913EEC02421B77D00063E56 /* JournalDetailCollectionViewCell.xib */; };
+		8913EEC42421C0D800063E56 /* JournalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EEC32421C0D800063E56 /* JournalCollectionViewController.swift */; };
+		8913EECA2421C17600063E56 /* JournalContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EEC92421C17600063E56 /* JournalContentModel.swift */; };
+		8913EECC2421C51100063E56 /* JournalPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EECB2421C51100063E56 /* JournalPostModel.swift */; };
+		8913EECE2421C5BA00063E56 /* JournalCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EECD2421C5BA00063E56 /* JournalCardModel.swift */; };
+		8913EED12421C6D800063E56 /* JournalCreateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EECF2421C6D800063E56 /* JournalCreateCollectionViewCell.swift */; };
+		8913EED22421C6D800063E56 /* JournalCreateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8913EED02421C6D800063E56 /* JournalCreateCollectionViewCell.xib */; };
+		8913EED82421FA9200063E56 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EED72421FA9200063E56 /* GlobalConstants.swift */; };
+		8913EEDA24220EDC00063E56 /* JournalPostContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EED924220EDC00063E56 /* JournalPostContentModel.swift */; };
+		8913EEDC24221A7C00063E56 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EEDB24221A7C00063E56 /* CreateViewController.swift */; };
 		89DF03C3241F460A006FADBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03C2241F460A006FADBB /* AppDelegate.swift */; };
 		89DF03C5241F460A006FADBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03C4241F460A006FADBB /* SceneDelegate.swift */; };
-		89DF03C7241F460A006FADBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03C6241F460A006FADBB /* ViewController.swift */; };
+		89DF03C7241F460A006FADBB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03C6241F460A006FADBB /* MainViewController.swift */; };
 		89DF03CA241F460A006FADBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF03C8241F460A006FADBB /* Main.storyboard */; };
 		89DF03CC241F460B006FADBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DF03CB241F460B006FADBB /* Assets.xcassets */; };
 		89DF03CF241F460B006FADBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF03CD241F460B006FADBB /* LaunchScreen.storyboard */; };
+		89DF03D9241F468C006FADBB /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF03D8241F468C006FADBB /* Discover.storyboard */; };
+		89DF03DB241F46A0006FADBB /* Journal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF03DA241F46A0006FADBB /* Journal.storyboard */; };
+		89DF03EC241FB970006FADBB /* DiscoverCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03EB241FB970006FADBB /* DiscoverCollectionViewController.swift */; };
+		89DF03EF241FCD64006FADBB /* DiscoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03ED241FCD64006FADBB /* DiscoverCollectionViewCell.swift */; };
+		89DF03F0241FCD64006FADBB /* DiscoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89DF03EE241FCD64006FADBB /* DiscoverCollectionViewCell.xib */; };
+		89DF03F8241FDEA2006FADBB /* DiscoverCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03F7241FDEA2006FADBB /* DiscoverCardModel.swift */; };
+		89DF03FA24208D58006FADBB /* DiscoverContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03F924208D58006FADBB /* DiscoverContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89DF03BF241F460A006FADBB /* project-south-sulawesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-south-sulawesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8913EEBF2421B77D00063E56 /* JournalDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		8913EEC02421B77D00063E56 /* JournalDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		8913EEC32421C0D800063E56 /* JournalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCollectionViewController.swift; sourceTree = "<group>"; };
+		8913EEC92421C17600063E56 /* JournalContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalContentModel.swift; sourceTree = "<group>"; };
+		8913EECB2421C51100063E56 /* JournalPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPostModel.swift; sourceTree = "<group>"; };
+		8913EECD2421C5BA00063E56 /* JournalCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCardModel.swift; sourceTree = "<group>"; };
+		8913EECF2421C6D800063E56 /* JournalCreateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCreateCollectionViewCell.swift; sourceTree = "<group>"; };
+		8913EED02421C6D800063E56 /* JournalCreateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalCreateCollectionViewCell.xib; sourceTree = "<group>"; };
+		8913EED72421FA9200063E56 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		8913EED924220EDC00063E56 /* JournalPostContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPostContentModel.swift; sourceTree = "<group>"; };
+		8913EEDB24221A7C00063E56 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		89DF03BF241F460A006FADBB /* South Sulawesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "South Sulawesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DF03C2241F460A006FADBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DF03C4241F460A006FADBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89DF03C6241F460A006FADBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89DF03C6241F460A006FADBB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		89DF03C9241F460A006FADBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89DF03CB241F460B006FADBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DF03CE241F460B006FADBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DF03D0241F460B006FADBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DF03D8241F468C006FADBB /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		89DF03DA241F46A0006FADBB /* Journal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Journal.storyboard; sourceTree = "<group>"; };
+		89DF03EB241FB970006FADBB /* DiscoverCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewController.swift; sourceTree = "<group>"; };
+		89DF03ED241FCD64006FADBB /* DiscoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		89DF03EE241FCD64006FADBB /* DiscoverCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverCollectionViewCell.xib; sourceTree = "<group>"; };
+		89DF03F7241FDEA2006FADBB /* DiscoverCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCardModel.swift; sourceTree = "<group>"; };
+		89DF03F924208D58006FADBB /* DiscoverContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8913EED62421FA8200063E56 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8913EED72421FA9200063E56 /* GlobalConstants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		89DF03B6241F460A006FADBB = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +92,7 @@
 		89DF03C0241F460A006FADBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89DF03BF241F460A006FADBB /* project-south-sulawesi.app */,
+				89DF03BF241F460A006FADBB /* South Sulawesi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +100,57 @@
 		89DF03C1241F460A006FADBB /* project-south-sulawesi */ = {
 			isa = PBXGroup;
 			children = (
+				8913EED62421FA8200063E56 /* Util */,
 				89DF03C2241F460A006FADBB /* AppDelegate.swift */,
-				89DF03C4241F460A006FADBB /* SceneDelegate.swift */,
-				89DF03C6241F460A006FADBB /* ViewController.swift */,
-				89DF03C8241F460A006FADBB /* Main.storyboard */,
 				89DF03CB241F460B006FADBB /* Assets.xcassets */,
-				89DF03CD241F460B006FADBB /* LaunchScreen.storyboard */,
+				89DF03EA241FB5F6006FADBB /* Model */,
+				89DF03D6241F462E006FADBB /* View */,
+				89DF03D7241F4635006FADBB /* Controller */,
 				89DF03D0241F460B006FADBB /* Info.plist */,
+				89DF03CD241F460B006FADBB /* LaunchScreen.storyboard */,
+				89DF03C4241F460A006FADBB /* SceneDelegate.swift */,
 			);
 			path = "project-south-sulawesi";
+			sourceTree = "<group>";
+		};
+		89DF03D6241F462E006FADBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89DF03D8241F468C006FADBB /* Discover.storyboard */,
+				89DF03DA241F46A0006FADBB /* Journal.storyboard */,
+				89DF03C8241F460A006FADBB /* Main.storyboard */,
+				89DF03ED241FCD64006FADBB /* DiscoverCollectionViewCell.swift */,
+				89DF03EE241FCD64006FADBB /* DiscoverCollectionViewCell.xib */,
+				8913EEBF2421B77D00063E56 /* JournalDetailCollectionViewCell.swift */,
+				8913EEC02421B77D00063E56 /* JournalDetailCollectionViewCell.xib */,
+				8913EECF2421C6D800063E56 /* JournalCreateCollectionViewCell.swift */,
+				8913EED02421C6D800063E56 /* JournalCreateCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89DF03D7241F4635006FADBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89DF03C6241F460A006FADBB /* MainViewController.swift */,
+				89DF03EB241FB970006FADBB /* DiscoverCollectionViewController.swift */,
+				8913EEC32421C0D800063E56 /* JournalCollectionViewController.swift */,
+				8913EEDB24221A7C00063E56 /* CreateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89DF03EA241FB5F6006FADBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89DF03F7241FDEA2006FADBB /* DiscoverCardModel.swift */,
+				89DF03F924208D58006FADBB /* DiscoverContentModel.swift */,
+				8913EECD2421C5BA00063E56 /* JournalCardModel.swift */,
+				8913EEC92421C17600063E56 /* JournalContentModel.swift */,
+				8913EECB2421C51100063E56 /* JournalPostModel.swift */,
+				8913EED924220EDC00063E56 /* JournalPostContentModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +170,7 @@
 			);
 			name = "project-south-sulawesi";
 			productName = "project-south-sulawesi";
-			productReference = 89DF03BF241F460A006FADBB /* project-south-sulawesi.app */;
+			productReference = 89DF03BF241F460A006FADBB /* South Sulawesi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,8 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				89DF03CF241F460B006FADBB /* LaunchScreen.storyboard in Resources */,
+				89DF03D9241F468C006FADBB /* Discover.storyboard in Resources */,
+				8913EED22421C6D800063E56 /* JournalCreateCollectionViewCell.xib in Resources */,
 				89DF03CC241F460B006FADBB /* Assets.xcassets in Resources */,
 				89DF03CA241F460A006FADBB /* Main.storyboard in Resources */,
+				89DF03DB241F46A0006FADBB /* Journal.storyboard in Resources */,
+				8913EEC22421B77D00063E56 /* JournalDetailCollectionViewCell.xib in Resources */,
+				89DF03F0241FCD64006FADBB /* DiscoverCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +229,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89DF03C7241F460A006FADBB /* ViewController.swift in Sources */,
+				8913EEC12421B77D00063E56 /* JournalDetailCollectionViewCell.swift in Sources */,
+				89DF03C7241F460A006FADBB /* MainViewController.swift in Sources */,
+				89DF03EC241FB970006FADBB /* DiscoverCollectionViewController.swift in Sources */,
+				8913EEDC24221A7C00063E56 /* CreateViewController.swift in Sources */,
+				8913EECC2421C51100063E56 /* JournalPostModel.swift in Sources */,
+				8913EECE2421C5BA00063E56 /* JournalCardModel.swift in Sources */,
+				8913EEDA24220EDC00063E56 /* JournalPostContentModel.swift in Sources */,
 				89DF03C3241F460A006FADBB /* AppDelegate.swift in Sources */,
+				89DF03F8241FDEA2006FADBB /* DiscoverCardModel.swift in Sources */,
+				8913EED82421FA9200063E56 /* GlobalConstants.swift in Sources */,
 				89DF03C5241F460A006FADBB /* SceneDelegate.swift in Sources */,
+				8913EEC42421C0D800063E56 /* JournalCollectionViewController.swift in Sources */,
+				89DF03EF241FCD64006FADBB /* DiscoverCollectionViewCell.swift in Sources */,
+				89DF03FA24208D58006FADBB /* DiscoverContentModel.swift in Sources */,
+				8913EED12421C6D800063E56 /* JournalCreateCollectionViewCell.swift in Sources */,
+				8913EECA2421C17600063E56 /* JournalContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +396,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andimasbagaswara.project-south-sulawesi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "South Sulawesi";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,9 +414,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andimasbagaswara.project-south-sulawesi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "South Sulawesi";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
