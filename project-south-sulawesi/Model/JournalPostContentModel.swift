@@ -6,12 +6,13 @@
 //  Copyright © 2020 Andimas Bagaswara. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct JournalPostContentModel {
-    var contents = [
-        JournalPostModel(date: "Wednesday 16th, 2020", post: "I'm so happy today", sentiment: "positive"),
-        JournalPostModel(date: "Wednesday 17th, 2020", post: "I'm so angry today", sentiment: "negative"),
-        JournalPostModel(date: "Wednesday 18th, 2020", post: "I'm a horse", sentiment: "neutral")
-    ]
+    
+    var contents = [JournalPostModel]()
+    
+    mutating func add(_ newPost: JournalPostModel) {
+        contents.append(newPost)
+    }
 }

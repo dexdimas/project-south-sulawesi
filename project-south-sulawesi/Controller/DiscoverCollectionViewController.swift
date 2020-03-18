@@ -61,6 +61,17 @@ class DiscoverCollectionViewController: UICollectionViewController, UICollection
     
         return cell
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let discoverStoryboard: UIStoryboard = UIStoryboard(name: "Discover", bundle: nil)
+        let discoverDetailViewController = discoverStoryboard.instantiateViewController(identifier: "DiscoverDetailViewController") as! DiscoverDetailViewController
+        
+        discoverDetailViewController.image = discoverContents.contents[indexPath.row].image
+        discoverDetailViewController.name = discoverContents.contents[indexPath.row].primary
+        discoverDetailViewController.detail = discoverContents.contents[indexPath.row].detail
+        
+        self.present(discoverDetailViewController, animated: true, completion: nil)
+    }
 
     // MARK: UICollectionViewDelegate
 

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Andimas Bagaswara. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct JournalCardModel {
     let type: String

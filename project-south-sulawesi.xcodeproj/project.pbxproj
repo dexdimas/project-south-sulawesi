@@ -18,6 +18,8 @@
 		8913EED82421FA9200063E56 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EED72421FA9200063E56 /* GlobalConstants.swift */; };
 		8913EEDA24220EDC00063E56 /* JournalPostContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EED924220EDC00063E56 /* JournalPostContentModel.swift */; };
 		8913EEDC24221A7C00063E56 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913EEDB24221A7C00063E56 /* CreateViewController.swift */; };
+		8913EEDE2422463A00063E56 /* CustomSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8913EEDD2422463A00063E56 /* CustomSentimentClassifier.mlmodel */; };
+		89CDC938242271AD004E74AC /* DiscoverDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDC937242271AD004E74AC /* DiscoverDetailViewController.swift */; };
 		89DF03C3241F460A006FADBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03C2241F460A006FADBB /* AppDelegate.swift */; };
 		89DF03C5241F460A006FADBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03C4241F460A006FADBB /* SceneDelegate.swift */; };
 		89DF03C7241F460A006FADBB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF03C6241F460A006FADBB /* MainViewController.swift */; };
@@ -45,6 +47,8 @@
 		8913EED72421FA9200063E56 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		8913EED924220EDC00063E56 /* JournalPostContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPostContentModel.swift; sourceTree = "<group>"; };
 		8913EEDB24221A7C00063E56 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		8913EEDD2422463A00063E56 /* CustomSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CustomSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		89CDC937242271AD004E74AC /* DiscoverDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDetailViewController.swift; sourceTree = "<group>"; };
 		89DF03BF241F460A006FADBB /* South Sulawesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "South Sulawesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DF03C2241F460A006FADBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DF03C4241F460A006FADBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 		89DF03C1241F460A006FADBB /* project-south-sulawesi */ = {
 			isa = PBXGroup;
 			children = (
+				8913EEDD2422463A00063E56 /* CustomSentimentClassifier.mlmodel */,
 				8913EED62421FA8200063E56 /* Util */,
 				89DF03C2241F460A006FADBB /* AppDelegate.swift */,
 				89DF03CB241F460B006FADBB /* Assets.xcassets */,
@@ -136,6 +141,7 @@
 				89DF03EB241FB970006FADBB /* DiscoverCollectionViewController.swift */,
 				8913EEC32421C0D800063E56 /* JournalCollectionViewController.swift */,
 				8913EEDB24221A7C00063E56 /* CreateViewController.swift */,
+				89CDC937242271AD004E74AC /* DiscoverDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				89DF03EC241FB970006FADBB /* DiscoverCollectionViewController.swift in Sources */,
 				8913EEDC24221A7C00063E56 /* CreateViewController.swift in Sources */,
 				8913EECC2421C51100063E56 /* JournalPostModel.swift in Sources */,
+				8913EEDE2422463A00063E56 /* CustomSentimentClassifier.mlmodel in Sources */,
+				89CDC938242271AD004E74AC /* DiscoverDetailViewController.swift in Sources */,
 				8913EECE2421C5BA00063E56 /* JournalCardModel.swift in Sources */,
 				8913EEDA24220EDC00063E56 /* JournalPostContentModel.swift in Sources */,
 				89DF03C3241F460A006FADBB /* AppDelegate.swift in Sources */,

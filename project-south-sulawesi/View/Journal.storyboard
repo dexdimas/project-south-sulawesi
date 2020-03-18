@@ -57,7 +57,11 @@
                                 <rect key="frame" x="20" y="44" width="374" height="96"/>
                                 <items>
                                     <navigationItem title="How's your day?" id="YNO-lD-WIU">
-                                        <barButtonItem key="rightBarButtonItem" title="Post" image="arrow.up.circle.fill" catalog="system" style="done" id="vGc-hX-mIP"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Post" image="arrow.up.circle.fill" catalog="system" style="done" id="bpL-6D-xrK">
+                                            <connections>
+                                                <action selector="postButtonPressed:" destination="Gjm-Aj-ZJU" id="qnp-AI-CqY"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
